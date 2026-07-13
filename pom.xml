@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fabian.xapi</groupId>
+    <artifactId>X-API-Parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>X-API</name>
+    <description>Shared library module for the X-Projects plugin suite. Provides common utilities, managers, and abstractions.</description>
+
+    <url>https://github.com/fabianfamr/X-API</url>
+    <inceptionYear>2026</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>fabianfamr</id>
+            <name>Fabian</name>
+            <url>https://github.com/fabianfamr</url>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>17</java.version>
+        <paper-api.version>1.21.3-R0.1-SNAPSHOT</paper-api.version>
+        <adventure.version>4.17.0</adventure.version>
+        <libby.version>1.3.1</libby.version>
+    </properties>
+
+    <modules>
+        <module>api</module>
+    </modules>
+
+</project>
